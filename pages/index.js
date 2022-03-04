@@ -24,7 +24,11 @@ export default function Home() {
             mau kena satir kah cuy ?
           </p>
         </header>
-        <form id="survey-form">
+        <form
+          id="survey-form"
+          action="https://formspree.io/f/mrgrdknl"
+          method="POST"
+        >
           <div className="form-group">
             <label id="name-label">Nama</label>
             <input
